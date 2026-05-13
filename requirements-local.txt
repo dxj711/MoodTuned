@@ -1,0 +1,9 @@
+-r requirements.txt
+
+# Optional local/cloud-host enhancements. Do not use this as the default
+# Streamlit Community Cloud requirements file unless your build logs show the
+# container has enough resources.
+pandas>=2.2.0
+opencv-python-headless>=4.9.0.80
+reportlab>=4.2.0
+pytesseract>=0.3.10

@@ -1,0 +1,10 @@
+# Streamlit Community Cloud friendly default.
+#
+# Leave this file intentionally empty of installable packages. Community Cloud
+# already provides Streamlit and its core dependencies. The app treats Spotify,
+# OpenCV, OCR, HuggingFace, and DeepFace integrations as optional fallbacks.
+#
+# For local enhanced installs, use:
+#   pip install -r requirements-local.txt
+#   pip install -r requirements-ai.txt
+#   pip install -r requirements-advanced.txt

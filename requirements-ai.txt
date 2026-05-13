@@ -1,0 +1,9 @@
+-r requirements.txt
+
+# Optional AI model stack for BLIP image captioning and CLIP scene recognition.
+# Use this locally, on Hugging Face Spaces, Render, Railway, or another host with
+# enough build/runtime resources. Streamlit Community Cloud may fail or become
+# very slow with these packages.
+transformers>=4.41.0
+torch>=2.2.0
+accelerate>=0.31.0

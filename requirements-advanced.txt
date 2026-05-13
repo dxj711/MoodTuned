@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# Optional local enhancement for face emotion detection.
+# This is intentionally excluded from the default cloud requirements because it
+# pulls a heavy TensorFlow stack that can exceed Streamlit Community Cloud limits.
+deepface>=0.0.92

@@ -1,0 +1,8 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+moodtune_history.db
+.streamlit/secrets.toml
+.cache/
